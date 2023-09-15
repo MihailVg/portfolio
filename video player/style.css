@@ -1,0 +1,80 @@
+body {
+    background: url("img/background-img.jpg");
+    background-size: cover;
+}
+
+p {
+    color: rgb(216, 208, 208);;
+}
+
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background:rgb(158, 152, 152);
+    height:7px;
+    border-radius: 50px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:rgb(33, 33, 232);
+    height:10px;
+    width:10px;
+    border-radius: 50px;
+}
+
+.center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+
+.player-position-cover {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.video-player-cover {
+    width: 640px;
+    height: 360px;
+    position: relative;
+}
+
+.video {
+    border-radius: 7px;
+    box-shadow: 0 0 100px black;
+}
+
+.controls-cover {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 640px;
+    top: 310px;
+    left: 0px;
+    gap: 5px;
+    background-color: rgba(57, 56, 56, 0.7);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 0 0 1px black;
+    visibility: hidden;
+}
+
+.play-pause-btn {
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+.volume {
+    width: 75px;
+}
+
+.timing {
+    width: 410px;
+}
+
+.make-visible {
+    visibility: visible;
+}

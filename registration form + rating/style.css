@@ -1,0 +1,103 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+}
+
+input {
+    height: 20px;
+    border-radius: 7px;
+    border: 2px solid rgb(193, 100, 2);
+}
+
+.form-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-title {
+    padding-bottom: 50px;
+}
+
+.input-form-cover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.name-paragraph {
+    padding-right: 51px;
+}
+
+.surname-paragraph {
+    padding-right: 18px;
+}
+
+.mail-paragraph {
+    padding-right: 15px;
+}
+
+.password-paragraph {
+    padding-right: 31px;
+}
+
+.password-exam-cover {
+    padding-bottom: 30px;
+}
+
+.password-exam-paragraph {
+    padding-right: 8px;
+}
+
+.rating-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.rating-paragraph {
+    font-size: 18px;
+}
+
+.rating-paragraph-unselected {
+    color: red;
+}
+
+.rating-stars-cover {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating-star {
+    font-size: 40px;
+}
+
+.rating-selected {
+    color: rgb(177, 177, 11);
+}
+
+.send-form-btn{
+    padding: 10px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: rgb(233, 123, 6);
+    border: none;
+    box-shadow: 0 0 8px black;
+    font-size: 20px;
+}
+
+.send-form-btn:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 15px black;
+}
